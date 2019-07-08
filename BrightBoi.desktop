@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=BrightBoi
+Comment=Adjust Monitor Brightness
+Exec=/usr/bin/BrightBoiGUI
+Icon=display-brightness-symbolic
+Terminal=True
