@@ -7,9 +7,13 @@ Operating System Dependencies:
 - Ubuntu: `sudo apt-get install zenity x11-xserver-utils`
 
 Script Installation:
-1. Grab bash script: `sudo wget -O /usr/bin/BrightBoiGUI https://raw.githubusercontent.com/Justinzobel/BrightBoi/master/brightness.sh`
-2. Grab menu entry: `sudo wget -O /usr/share//applications/BrightBoi.desktop https://raw.githubusercontent.com/Justinzobel/BrightBoi/master/BrightBoi.desktop`
-3. Make BrightBoi executable: `sudo chmod +x /usr/bin/BrightBoiGUI`
-4. Update Desktop Database: `sudo update-desktop-database`
+1. clone the repository: `git clone https://github.com/justinzobel/BrightBoi`
+2. check for missing dependencies: `./checkdeps`
+3. if missing dependencies exist, install them before using the script.
+4. run `make install` to install.
+
+Script Uninstallation:
+1. cd to the directory you cloned your repo in.
+2. run `make uninstall` (with the install `PREFIX` variable if you defined it)
 
 <img src="screenshot1.png"><img src="screenshot2.png">
