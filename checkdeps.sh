@@ -8,7 +8,7 @@ for e in $deps
 do test -z `find $PATH -name "$e"`&& echo "$e is not installed."
 done
 
-echo "All done!"
+echo "All done! All dependencies located."
 
 
 unset IFS
