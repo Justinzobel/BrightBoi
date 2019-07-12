@@ -9,7 +9,7 @@ DATADIR = $(PREFIX)/share
 install:
 	-mkdir -p $(BINDIR)
 	-mkdir -p $(DATADIR)/applications
-	cp --preserve=mode $(EXECS) -t $(BINDIR)/BrightBoiGUI
+	cp --preserve=mode $(EXECS) $(BINDIR)/BrightBoiGUI
 	cp $(DESKTOP) -t $(DATADIR)/applications
 	-update-desktop-database
 
