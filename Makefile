@@ -9,7 +9,7 @@ DATADIR = $(PREFIX)/share
 install:
 	-mkdir -p $(BINDIR)
 	-mkdir -p $(DATADIR)/applications
-	cp $(EXECS) -t --peresrve=mode $(BINDIR)
+	cp --peresrve=mode $(EXECS) -t $(BINDIR)
 	cp $(DESKTOP) -t $(DATADIR)/applications
 	-update-desktop-database
 
