@@ -3,8 +3,8 @@ A simple bash / zenity / xrandr brightness adjuster
 
 ### Installation Instructions
 Operating System Dependencies:
-- Solus: `sudo eopkg install zenity xrandr`
-- Ubuntu: `sudo apt-get install zenity x11-xserver-utils`
+- Solus: `sudo eopkg install git zenity xrandr`
+- Ubuntu: `sudo apt-get install git zenity x11-xserver-utils`
 
 Script Installation:
 1. clone the repository: `git clone https://github.com/justinzobel/BrightBoi`
